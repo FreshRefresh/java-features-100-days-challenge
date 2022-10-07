@@ -1,10 +1,10 @@
 package com.example.ram.sorting;
 
-public class BubbleSortApp implements Sort {
+public class BubbleSort implements Sort {
 
     public static void main(String[] args) {
 
-        BubbleSortApp app = new BubbleSortApp();
+        BubbleSort app = new BubbleSort();
         int inputArray[] = {15, 2, 9, 5, 16, 10};
         System.out.println("Original Array....");
         app.printArray(inputArray);
@@ -21,7 +21,7 @@ public class BubbleSortApp implements Sort {
         }
         for (int i = 0; i < inputArray.length - 1; i++) {
             for (int j = 0; j < inputArray.length - i - 1; j++) {
-                if (inputArray[j] < inputArray[j + 1]) {
+                if (inputArray[j] > inputArray[j + 1]) {
                     int temp = inputArray[j];
                     inputArray[j] = inputArray[j + 1];
                     inputArray[j + 1] = temp;
