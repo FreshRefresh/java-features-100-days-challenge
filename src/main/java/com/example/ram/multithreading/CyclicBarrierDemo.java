@@ -19,7 +19,6 @@ public class CyclicBarrierDemo {
         executorService.submit(d2);
         executorService.submit(d3);
 
-
     }
 
 
