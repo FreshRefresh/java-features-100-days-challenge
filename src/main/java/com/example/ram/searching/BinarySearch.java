@@ -34,7 +34,6 @@ public class BinarySearch {
         int firstOccurrence = findElementIndex(element, inputArray, true);
         int lastOccurrence = findElementIndex(element, inputArray, false);
 
-
         return new int[]{firstOccurrence, lastOccurrence};
     }
 }
