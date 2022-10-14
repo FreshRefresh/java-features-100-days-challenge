@@ -1,1 +1,10 @@
-
+server:
+  port: 8080
+  tomcat:
+    max-connections: 500
+    connection-timeout: 1000
+    accept-count: 100
+    accesslog:
+      enabled: true
+    threads:
+      max: 500
