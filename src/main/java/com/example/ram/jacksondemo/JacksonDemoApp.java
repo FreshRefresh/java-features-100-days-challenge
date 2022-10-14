@@ -7,10 +7,12 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
 
 public class JacksonDemoApp {
 
     public static void main(String[] args) {
+
         ObjectMapper objectMapper = new ObjectMapper();
         Car car = new Car("yellow", "renault");
         try {
