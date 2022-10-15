@@ -1,6 +1,6 @@
 package com.example.ram.strings;
 
-public class StringReverseDemo {
+public class StringReversal {
 
     public void helper(char[] str, int i, int j) {
 
