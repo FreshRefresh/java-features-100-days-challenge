@@ -7,6 +7,10 @@ public class ArrayStack<E> implements Stack<E> {
     private E[] elements;
     private int currentIndex;
 
+    public ArrayStack(E[] e) {
+        this.elements = e;
+    }
+
     public ArrayStack(Class<E> clazz, int capacity) {
         this.elements = (E[]) Array.newInstance(clazz, capacity);
         this.currentIndex = -1;

@@ -1,7 +1,5 @@
 package com.example.ram.ds;
 
-
-
 public class MyStackDemo {
 
     public static void main(String[] args) {
