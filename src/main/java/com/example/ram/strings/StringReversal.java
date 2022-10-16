@@ -12,4 +12,9 @@ public class StringReversal {
         str[j] = temp;
         helper(str, i + 1, j - 1);
     }
+
+    public int countWords(String str) {
+        int countWords = str.split("\\s").length;
+        return countWords;
+    }
 }
