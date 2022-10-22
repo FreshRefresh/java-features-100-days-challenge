@@ -8,4 +8,9 @@ public class InMemoryTransactionLog implements TransactionLog {
     public void logChargeResult(ChargeResult chargeResult) {
 
     }
+
+    @Override
+    public void logConnectException(UnreachableException e) {
+
+    }
 }

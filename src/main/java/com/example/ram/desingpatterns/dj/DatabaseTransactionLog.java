@@ -8,4 +8,9 @@ public class DatabaseTransactionLog implements TransactionLog {
     public void logChargeResult(ChargeResult chargeResult) {
 
     }
+
+    @Override
+    public void logConnectException(UnreachableException e) {
+
+    }
 }
