@@ -1,9 +1,9 @@
 package com.example.ram.ds;
 
+import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
-
 public class LinkedList<T> {
 
     private Node<T> head;
@@ -43,9 +43,10 @@ public class LinkedList<T> {
         this.head = previous;
     }
 
+
     @Builder
+    @Setter(AccessLevel.PRIVATE)
     @Getter
-    @Setter
     private static class Node<T> {
         private T data;
         private Node<T> next;
