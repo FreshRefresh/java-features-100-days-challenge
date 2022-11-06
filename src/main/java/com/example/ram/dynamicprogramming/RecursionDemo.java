@@ -1,4 +1,4 @@
-package com.example.ram;
+package com.example.ram.dynamicprogramming;
 
 public class RecursionDemo {
 
